@@ -1,0 +1,82 @@
+.hero-container{
+
+    margin-top: 100px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color:greenyellow;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
+.action input{
+    outline: none;
+    border: none;
+    height: 38px;
+    width: 120px;
+    background-color: greenyellow;
+    /* color: white; */
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.313);
+    font-size: 14px;
+
+}
+svg{
+    /* background-color: white; */
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+@media screen and (max-width:700px){
+    .hero-container{
+        flex-direction: column;
+    }
+    .action{
+        width: 200px;
+        gap: 30px;
+        
+    }
+}
+
+.date-time input[type="date"],.date-time input[type="time"] {
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    padding: 4px;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.book{
+    text-transform: uppercase;
+    border: 2px solid black;
+    background-color: greenyellow;
+    color: black;
+    padding: 13px 0px;
+    border-radius: 10px;
+    width: 230px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 30px;
+
+}
+  
+ 
+  
+  
+  
+
+
